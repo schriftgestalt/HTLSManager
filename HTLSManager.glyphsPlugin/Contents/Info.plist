@@ -13,9 +13,9 @@
 	<key>CFBundleName</key>
 	<string>HTLS Manager</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1</string> <!-- 1.0 -->
+	<string>0.1.1</string> <!-- 1.0 -->
 	<key>CFBundleVersion</key>
-	<string>4</string> <!-- 123 -->
+	<string>5</string> <!-- 123 -->
 	<key>UpdateFeedURL</key>
 	<string>https://github.com/eweracs/HTLSManager/blob/master/HTLSManager.glyphsPlugin/Contents/Info.plist</string>
 	<key>productPageURL</key>

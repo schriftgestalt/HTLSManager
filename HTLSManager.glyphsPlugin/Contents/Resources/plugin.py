@@ -37,10 +37,10 @@ class HTLSManager(GeneralPlugin):
 		if Glyphs.buildNumber >= 3320:
 			from GlyphsApp.UI import MenuItem
 			plugin_item = MenuItem(self.name, action=self.showWindow_, target=self)
-		elif Glyphs.versionNumber >= 3.3:
-			plugin_item = NSMenuItem(self.name, callback=self.showWindow_, target=self)
 		else:
-			plugin_item = NSMenuItem(self.name, self.showWindow_)
+			newMenuItem = NSMenuItem.alloc().initWithTitle_action_keyEquivalent_(self.name, self.showWindow_, "")
+			newMenuItem.setTarget_(self)
+
 		Glyphs.menu[GLYPH_MENU].append(plugin_item)
 
 	def showWindow_(self, sender):
