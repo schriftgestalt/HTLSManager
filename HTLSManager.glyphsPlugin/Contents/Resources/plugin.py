@@ -4,8 +4,8 @@ from __future__ import division, print_function, unicode_literals
 import objc
 import os
 import uuid
-from AppKit import NSColor
-from GlyphsApp import Glyphs, GLYPH_MENU, UPDATEINTERFACE, Message, AskString, GetOpenFile, GetSaveFile, NSMenuItem
+from AppKit import NSColor, NSMenuItem
+from GlyphsApp import Glyphs, GLYPH_MENU, UPDATEINTERFACE, Message, AskString, GetOpenFile, GetSaveFile
 from GlyphsApp.plugins import GeneralPlugin
 from GlyphsApp.UI import GlyphView
 
